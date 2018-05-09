@@ -1,0 +1,27 @@
+@font-face{
+
+font-family: 'Segoe WP';
+src: url('../fonts/segoe-wp-light.eot');
+src: url('../fonts/segoe-wp-light.eot?iefix') format('eot'),
+url('../fonts/segoe-wp-light.woff') format('woff'),
+url('../fonts/segoe-wp-light.ttf') format('truetype'),
+url('../fonts/segoe-wp-light.svg') format('svg');
+font-weight: lighter;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Segoe WPN';
+src: url('../fonts/segoewpn.eot');
+src: url('../fonts/segoewpn.eot?iefix') format('eot'),
+url('../fonts/ssegoewpn.woff') format('woff'),
+url('../fonts/segoewpn.ttf') format('truetype'),
+url('../fonts/segoewpn.svg') format('svg');
+font-weight: lighter;
+
+font-style: normal;
+
+}
