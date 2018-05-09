@@ -1,0 +1,416 @@
+$colmain: #fff;
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Segoe WP;
+}
+
+.container {
+	width: 970px;
+	margin: 0 auto;
+	@media screen and (max-width: 768px) {
+		width: 550px;	
+		}
+}
+
+.clearfix:after {
+	content: ' ';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.default {
+	position: fixed;
+	top: 0;
+	background: #fff;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding-top: 23px;
+	height: 60px;
+	z-index: 9999;
+
+	-webkit-box-shadow: 0 2px 2px #444;
+	   -moz-box-shadow: 0 2px 2px #444;
+		-ms-box-shadow: 0 2px 2px #444;
+		 -o-box-shadow: 0 2px 2px #444;
+			box-shadow: 0 2px 2px #444;
+}
+
+header {
+
+	.telephone {
+		background: url(../img/bg-1.png) no-repeat center top / cover;
+		width: 100%;
+		margin-top: 80px;
+	}
+
+	.logomenu {
+		padding-top: 23px;
+		height: 60px;
+		z-index: 9999;
+		position: absolute;
+		width: 100%;
+		background-color: #fff;
+		top: 0px;
+	}
+
+
+
+	p {
+		font-size: 42px;
+		margin: {
+			top:-7px;
+			left:13px;}
+		display: inline;
+		position: absolute;
+	
+	}
+	nav {
+		float: right;
+		ul {
+			@media screen and (max-width: 768px) {
+		display: none;
+		}
+		}
+		li {
+			display: block;
+			float: left;
+			margin-left: 37px;
+			padding-bottom: 15px;
+			font:{
+				size:20px;
+				family:Segoe WPN; 
+				}
+			@media screen and (max-width: 768px) {
+				float: none;
+				background: #fff;
+				width: 100px;	
+				text-align: center; 
+				border-bottom: 2px solid #3e4245;
+				padding: {
+					top:7px;
+					bottom: 7px;
+				}
+
+				}
+			&:hover {
+			border-bottom: 3px solid #5094f2;
+					}
+			a {
+				text-decoration: none;
+				color: #000;
+				opacity: 0.7;
+				}
+			}
+		}
+
+}
+
+.icon_bg {
+	background-color: $colmain;
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin-left: 11px;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+.fa-check {
+	font-size: 14px;
+	color: #5094f2;
+	float: right;
+	position: relative;
+	margin-top: 5px;
+	margin-right: 4px;
+
+
+}
+
+.sign {
+	display: block;
+	text-decoration: none;
+	background-color: #5094f2;
+	width: 172px;
+	height: 40px;
+	font-size: 22px;
+	font-family: Segoe WP;
+	color: #fff;
+	padding-top: 5px;
+	border-radius: 3px;
+	position: relative;
+	top:-190px;
+	left: 55%;
+	&:hover {
+		box-shadow: inset 0 2px 10px 1px rgba(0,0,0,.3),
+	 			inset 0 0 0 60px rgba(0,0,0,.3),
+	 				 0 1px rgba(255,255,255,.08);
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	}
+	@media screen and (max-width: 768px) {
+		top:-100px;
+		left: 50%
+		}
+}
+
+.sl {
+		margin: 0 auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 912px;
+		@media screen and (max-width: 768px) {
+		width: 530px;
+		}
+}
+
+.sl_img {
+		float: left;
+		@media screen and (max-width: 768px) {
+		height: 210px;	
+		width: 177px;
+		}
+
+	}
+
+.sl_zag {
+	font-size:42px;
+	margin: 0;
+	font-weight: normal;
+	margin-bottom: 10px;
+	@media screen and (max-width: 768px) {
+		font-size: 30px;
+		text-align: left;
+		}
+}
+
+.sl_desc {
+	font-size: 26px;
+	margin: 0;
+	@media screen and (max-width: 768px) {
+		font-size: 22px;
+		text-align: left;
+		}
+}
+
+.sl_t {
+	float: right;
+	width: 400px;
+	color: white;
+	margin-top: 100px;
+	@media screen and (max-width: 768px) {
+		width: 286px;
+		margin: 0px;
+		}
+}
+
+.function {
+		padding-top: 66px;
+		@media screen and (max-width: 768px) {
+		padding: 0px;
+		}
+	h6 {
+		font: {
+			size:20px;
+			family: Segoe WPN;
+			weight: normal;
+		}
+		color: #5094f2;
+		margin: 0;
+		padding: 0;
+		@media screen and (max-width: 768px) {
+		font-size: 34px;
+		}
+	}
+
+	p {
+		margin: 0px;
+		margin-top: 10px;
+		position: inherit;
+		font: {
+			size: 14px;
+			family: Segoe WPN;
+		}
+		color: #909090;
+		@media screen and (max-width: 768px) {
+		font-size: 19px;
+		}
+	}
+
+}
+
+.block	{
+	text-align: center;
+	@media screen and (max-width: 768px) {
+		border-bottom: 1px solid #ccc;
+		height: 154px;
+		}
+}
+
+.function .container	{
+	@media screen and (max-width: 768px) {
+		width: 100%;
+		}
+}
+
+.block:nth-child(1) {
+	float: left;
+	@media screen and (max-width: 768px) {
+		float: none;
+		margin-bottom: 25px;	
+		}
+}
+
+.block:nth-child(2) {
+	float: right;
+	@media screen and (max-width: 768px) {
+		float: none;	
+		}
+}
+
+.block:nth-child(3) {
+	@media screen and (max-width: 768px) {
+		padding-top: 25px;	
+		}
+}
+
+.com_text	{
+	@media screen and (max-width: 768px) {
+		text-align: left;
+		float: right;
+		margin-right: 80px;	
+		}
+}
+
+.block img {
+	@media screen and (max-width: 768px) {
+		float: left;
+		width: 135px;
+		height: 135px;
+		margin-left: 44px;	
+		}
+}
+
+.product	{
+	@media screen and (max-width: 768px) {
+		height: 600px;	
+		}
+	margin-bottom: 65px;
+	h1 {
+		font: {
+			size:42px;
+			family: Segoe WPN;
+		}
+		font-weight: normal;
+		color: #6f7173;
+		margin-left: 10px;
+	}
+
+	h2 {
+		font: {
+			size: 26px;
+			family: Segoe WPN;
+		}
+		font-weight: normal;
+		color: #6f7173;
+		@media screen and (max-width: 768px) {
+		font-size: 34px;	
+		}
+	}
+
+	p   {
+		margin: 0px;
+		font: {
+			size: 15px;
+			family: Segoe WP;
+		}
+		line-height: 2.4;
+		@media screen and (max-width: 768px) {
+		font-size: 17px;	
+		}
+	}
+
+	img  {
+		@media screen and (max-width: 768px) {
+		height: 150px;
+		width: 193px;	
+		}
+	}
+}
+
+.text_bl    {
+	float: right;
+	margin-top: 100px;
+	margin-right: 200px;
+	@media screen and (max-width: 768px) {
+		float: none;
+		margin-top: 0px;
+		width: 100%;
+		margin-left: 40px;
+
+		}
+}
+
+.cart   {
+	float: left;
+	margin-top: 15px;
+	@media screen and (max-width: 768px) {
+		float: none;
+		text-align: center;	
+		}
+
+}
+
+hr {
+		color: #e5e5e5;
+		height: 1px;
+		opacity: 0.7;
+		width: 1250px;
+		@media screen and (max-width: 768px) {
+		width: 100%;	
+		}
+	}
+
+
+footer {
+	text-align: center;
+	p {
+		font-size:15px;
+		color: #b9b9b9;
+		margin: {
+			top:33px;
+			bottom:43px;
+			left:-125px;
+		}
+	}
+}
+
+.fa-bars {
+	font-size: 35px;
+	color: $colmain;
+}
+
+.icon_bg_2	{
+	background-color: #5094f2;
+	width: 55px;
+	height: 40px;
+	border-radius: 3px;
+	display: none;
+	text-align: center;
+	padding-top: 5px;
+	float: right;
+	cursor: pointer;
+	@media screen and (max-width: 768px) {
+		display: block;	
+		}
+}
+
+
