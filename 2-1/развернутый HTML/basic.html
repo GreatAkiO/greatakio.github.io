@@ -1,0 +1,710 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <style>.wrapper {
+  width: 100%; }
+
+body {
+  width: 100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  Margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  clear: both;
+  display: block; }
+
+center {
+  width: 100%;
+  min-width: 505px; }
+
+a img {
+  border: none; }
+
+p {
+  margin: 0 0 0 10px;
+  Margin: 0 0 0 10px; }
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+td {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important; }
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left; }
+
+@media only screen {
+  html {
+    min-height: 100%;
+    background: #f3f3f3; } }
+
+table.body {
+  background: #f3f3f3;
+  height: 100%;
+  width: 100%; }
+
+table.container {
+  background: #fefefe;
+  width: 505px;
+  margin: 0 auto;
+  Margin: 0 auto;
+  text-align: inherit; }
+
+table.row {
+  padding: 0;
+  width: 100%;
+  position: relative; }
+
+table.spacer {
+  width: 100%; }
+  table.spacer td {
+    mso-line-height-rule: exactly; }
+
+table.container table.row {
+  display: table; }
+
+th.columns {
+  margin: 0 auto;
+  Margin: 0 auto;
+  padding-left: 16px;
+  padding-bottom: 16px; }
+  th.columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+th.columns.last {
+  padding-right: 16px; }
+
+th.columns table:not(.button) {
+  width: 100%; }
+
+th.large-3 {
+  width: 110.25px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-3.first {
+  padding-left: 16px; }
+
+th.large-3.last {
+  padding-right: 16px; }
+
+th.large-4 {
+  width: 152.33333px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-4.first {
+  padding-left: 16px; }
+
+th.large-4.last {
+  padding-right: 16px; }
+
+th.large-4 center {
+  min-width: 120.33333px; }
+
+th.large-5 {
+  width: 194.41667px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-5.last {
+  padding-right: 16px; }
+
+th.large-5 center {
+  min-width: 162.41667px; }
+
+th.large-6 {
+  width: 236.5px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-6.first {
+  padding-left: 16px; }
+
+th.large-6.last {
+  padding-right: 16px; }
+
+.collapse > tbody > tr > th.large-6 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 252.5px; }
+
+.collapse th.large-6.first,
+.collapse th.large-6.last {
+  width: 260.5px; }
+
+th.large-6 center {
+  min-width: 204.5px; }
+
+.body .columns th.large-6 {
+  width: 50%; }
+
+th.large-7 {
+  width: 278.58333px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-7.first {
+  padding-left: 16px; }
+
+th.large-7 center {
+  min-width: 246.58333px; }
+
+th.large-8 {
+  width: 320.66667px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-8.first {
+  padding-left: 16px; }
+
+th.large-8.last {
+  padding-right: 16px; }
+
+th.large-12 {
+  width: 489px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-12.first {
+  padding-left: 16px; }
+
+th.large-12.last {
+  padding-right: 16px; }
+
+.collapse > tbody > tr > th.large-12 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 505px; }
+
+.collapse th.large-12.first,
+.collapse th.large-12.last {
+  width: 513px; }
+
+th.large-12 center {
+  min-width: 457px; }
+
+td.expander,
+th.expander {
+  visibility: hidden;
+  width: 0;
+  padding: 0 !important; }
+
+table.text-center,
+h1.text-center,
+h3.text-center,
+h4.text-center,
+h5.text-center,
+p.text-center {
+  text-align: center; }
+
+p.text-right {
+  text-align: right; }
+
+@media only screen and (max-width: 521px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+    text-align: center !important; } }
+
+img.float-center {
+  margin: 0 auto;
+  Margin: 0 auto;
+  float: none;
+  text-align: center; }
+
+table.float-center,
+th.float-center {
+  margin: 0 auto;
+  Margin: 0 auto;
+  float: none;
+  text-align: center; }
+
+body,
+table.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+td,
+th,
+a {
+  color: #0a0a0a;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  Margin: 0;
+  text-align: left;
+  line-height: 1.3; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  word-wrap: normal;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+  Margin-bottom: 10px; }
+
+h1 {
+  font-size: 34px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 20px; }
+
+h6 {
+  font-size: 18px; }
+
+body,
+table.body,
+p,
+td,
+th {
+  font-size: 16px;
+  line-height: 1.3; }
+
+p {
+  margin-bottom: 10px;
+  Margin-bottom: 10px; }
+  p.lead {
+    font-size: 20px;
+    line-height: 1.6; }
+
+small {
+  font-size: 80%;
+  color: #cacaca; }
+
+a {
+  color: #2199e8;
+  text-decoration: none; }
+  a:hover {
+    color: #147dc2; }
+  a:active {
+    color: #147dc2; }
+  a:visited {
+    color: #2199e8; }
+
+span.preheader {
+  display: none !important;
+  visibility: hidden;
+  mso-hide: all !important;
+  font-size: 1px;
+  color: #f3f3f3;
+  line-height: 1px;
+  max-height: 0px;
+  max-width: 0px;
+  opacity: 0;
+  overflow: hidden; }
+
+table.button {
+  width: auto;
+  margin: 0 0 16px 0;
+  Margin: 0 0 16px 0; }
+  table.button table td {
+    text-align: left;
+    color: #fefefe;
+    background: #2199e8;
+    border: 2px solid #2199e8; }
+    table.button table td a {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fefefe;
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px 8px 16px;
+      border: 0 solid #2199e8;
+      border-radius: 3px; }
+
+table.button:hover table tr td a,
+table.button:active table tr td a,
+table.button table tr td a:visited,
+table.button.large:hover table tr td a,
+table.button.large:active table tr td a,
+table.button.large table tr td a:visited {
+  color: #fefefe; }
+
+table.button.large table a {
+  padding: 10px 20px 10px 20px;
+  font-size: 20px; }
+
+table.button.expand {
+  width: 100% !important; }
+  table.button.expand table {
+    width: 100%; }
+    table.button.expand table a {
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0; }
+  table.button.expand center {
+    min-width: 0; }
+
+table.button:hover table td,
+table.button:visited table td,
+table.button:active table td {
+  background: #147dc2;
+  color: #fefefe; }
+
+table.button:hover table a,
+table.button:visited table a,
+table.button:active table a {
+  border: 0 solid #147dc2; }
+
+table.button.secondary table td {
+  background: #777777;
+  color: #fefefe;
+  border: 0px solid #777777; }
+
+table.button.secondary table a {
+  color: #fefefe;
+  border: 0 solid #777777; }
+
+table.button.secondary:hover table td {
+  background: #919191;
+  color: #fefefe; }
+
+table.button.secondary:hover table a {
+  border: 0 solid #919191; }
+
+table.button.secondary:hover table td a {
+  color: #fefefe; }
+
+table.button.secondary:active table td a {
+  color: #fefefe; }
+
+table.button.secondary table td a:visited {
+  color: #fefefe; }
+
+table.button.success table td {
+  background: #3adb76;
+  border: 0px solid #3adb76; }
+
+table.button.success table a {
+  border: 0 solid #3adb76; }
+
+table.button.success:hover table td {
+  background: #23bf5d; }
+
+table.button.success:hover table a {
+  border: 0 solid #23bf5d; }
+
+table.callout {
+  margin-bottom: 16px;
+  Margin-bottom: 16px; }
+
+th.callout-inner {
+  width: 100%;
+  border: 1px solid #cbcbcb;
+  padding: 10px;
+  background: #fefefe; }
+  th.callout-inner.primary {
+    background: #def0fc;
+    border: 1px solid #444444;
+    color: #0a0a0a; }
+  th.callout-inner.secondary {
+    background: #ebebeb;
+    border: 1px solid #444444;
+    color: #0a0a0a; }
+
+table.menu {
+  width: 505px; }
+  table.menu th.menu-item {
+    padding: 16px;
+    padding-right: 10px; }
+    table.menu th.menu-item a {
+      color: #2199e8; }
+
+table.menu.vertical th.menu-item {
+  padding: 16px;
+  padding-right: 0;
+  display: block; }
+  table.menu.vertical th.menu-item a {
+    width: 100%; }
+
+table.menu.text-center a {
+  text-align: center; }
+
+.menu[align="center"] {
+  width: auto !important; }
+
+@media only screen and (max-width: 521px) {
+  table.body img {
+    width: auto;
+    height: auto; }
+  table.body center {
+    min-width: 0 !important; }
+  table.body .container {
+    width: 95% !important; }
+  table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 16px !important;
+    padding-right: 16px !important; }
+    table.body .columns .columns {
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+  table.body .collapse .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  th.small-6 {
+    display: inline-block !important;
+    width: 50% !important; }
+  th.small-12 {
+    display: inline-block !important;
+    width: 100% !important; }
+  .columns th.small-12 {
+    display: block !important;
+    width: 100% !important; }
+  table.menu {
+    width: 100% !important; }
+    table.menu td,
+    table.menu th {
+      width: auto !important;
+      display: inline-block !important; }
+    table.menu.vertical td,
+    table.menu.vertical th {
+      display: block !important; }
+  table.menu[align="center"] {
+    width: auto !important; } }
+
+.zag_1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  line-height: 1.2; }
+
+.zag_text {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 22px; }
+
+.flor_names {
+  font-size: 15px;
+  color: #92a370;
+  text-decoration: underline; }
+
+.zakaz {
+  font-size: 15px;
+  line-height: 0.9; }
+
+.phone {
+  font-size: 21px;
+  line-height: 0.6; }
+
+.free {
+  font-size: 13px;
+  line-height: 0.6; }
+
+.foot {
+  font-size: 13px; }
+
+.foot_2 {
+  font-size: 13px;
+  text-decoration: underline; }
+</style>
+  </head>
+  <body>
+    <span class="preheader"></span>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center data-parsed="">
+            
+              <table align="center" class="container float-center"><tbody><tr><td>
+                <table class="spacer"><tbody><tr><td height="27px" style="font-size:27px;line-height:27px;">&#xA0;</td></tr></tbody></table> 
+                <table class="row"><tbody><tr>
+                  <th class="small-12 large-12 columns first last"><table><tr><th>
+                    <a href="#">
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/logobc74d3a33c3c16ce.png" alt="" align="center" class="float-center"></center>
+                    </a>
+                  </th>
+<th class="expander"></th></tr></table></th>
+                </tr></tbody></table>
+                <table class="spacer"><tbody><tr><td height="17px" style="font-size:17px;line-height:17px;">&#xA0;</td></tr></tbody></table> 
+                <table class="row"><tbody><tr>
+                  <th class="small-12 large-12 columns first last"><table><tr><th>
+                    <img class="float-center" src="https://s5.wampi.ru/2018/05/16/line.png" alt="">
+                  </th>
+<th class="expander"></th></tr></table></th>
+                </tr></tbody></table>
+              </td></tr></tbody></table>
+              <table align="center" class="container float-center"><tbody><tr><td>
+                <table class="spacer"><tbody><tr><td height="7px" style="font-size:7px;line-height:7px;">&#xA0;</td></tr></tbody></table> 
+                  <table class="row"><tbody><tr>
+                    <th class="small-12 large-12 columns first last"><table><tr><th>
+                      <h2 class="zag_1">Здравствуйте, Ирина!</h2>
+                      <p class="zag_text">День знаний уже на пороге. Осталось совсем немного времени, чтобы позаботиться о цветочном подарке. Закажите доставку цветов к 1 сентября и избавьте себя от лишних хлопот накануне праздника.</p>
+                    </th>
+<th class="expander"></th></tr></table></th>
+                  </tr></tbody></table>
+                  <table class="spacer"><tbody><tr><td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td></tr></tbody></table> 
+                  <table class="row"><tbody><tr>
+                    <th class="small-12 large-4 columns first"><table><tr><th>
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/img_1f4ed3d79ad353e97.png" alt="" align="center" class="float-center"></center>
+                      <table class="spacer"><tbody><tr><td height="15px" style="font-size:15px;line-height:15px;">&#xA0;</td></tr></tbody></table> 
+                      <a href="#">
+                       <p class="text-center flor_names medium-text-left">Азбука</p>
+                      </a>
+                      <p class="text-center medium-text-left">от <b>1800 руб</b></p>
+                    </th></tr></table></th> 
+                    <th class="small-12 large-4 columns last"><table><tr><th>
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/img_216e86775ba8f86e0.png" alt="" align="center" class="float-center"></center>
+                      <table class="spacer"><tbody><tr><td height="13px" style="font-size:13px;line-height:13px;">&#xA0;</td></tr></tbody></table> 
+                      <a href="#">
+                        <p class="text-center flor_names">Лучшему учителю</p>
+                      </a>
+                      <p class="text-center">от <b>2490 руб</b></p>
+                    </th></tr></table></th> 
+                  </tr></tbody></table>
+                  <table class="row"><tbody><tr>
+                    <th class="small-12 large-4 columns first"><table><tr><th>
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/img_34de0746f8b6c76ba.png" alt="" align="center" class="float-center"></center>
+                      <table class="spacer"><tbody><tr><td height="11px" style="font-size:11px;line-height:11px;">&#xA0;</td></tr></tbody></table> 
+                      <a href="#">
+                        <p class="text-center flor_names">Восьмое чудо света</p>
+                      </a>
+                      <p class="text-center">от <b>2330 руб</b></p>
+                    </th></tr></table></th>
+                    <th class="small-12 large-4 columns last"><table><tr><th>
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/img_4aa20ff699fc7d4d2.png" alt="" align="center" class="float-center"></center>
+                      <table class="spacer"><tbody><tr><td height="10px" style="font-size:10px;line-height:10px;">&#xA0;</td></tr></tbody></table> 
+                      <a href="#">
+                       <p class="text-center flor_names">Краски осени</p>
+                      </a>
+                      <p class="text-center">от <b>1800 руб</b></p>
+                    </th></tr></table></th>
+                  </tr></tbody></table>
+                  <table class="row"><tbody><tr>
+                    <th class="small-12 large-4 columns first"><table><tr><th>
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/img_515b4179fac63c365.png" alt="" align="center" class="float-center"></center>
+                      <table class="spacer"><tbody><tr><td height="9px" style="font-size:9px;line-height:9px;">&#xA0;</td></tr></tbody></table> 
+                      <a href="#">
+                        <p class="text-center flor_names">Солнечные хризантемы</p>
+                      </a>
+                      <p class="text-center">от <b>2100 руб</b></p>
+                    </th></tr></table></th> 
+                    <th class="small-12 large-4 columns last"><table><tr><th>
+                      <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/img_61c7771619d100ec3.png" alt="" align="center" class="float-center"></center>
+                      <table class="spacer"><tbody><tr><td height="8px" style="font-size:8px;line-height:8px;">&#xA0;</td></tr></tbody></table> 
+                      <a href="#">
+                        <p class="text-center flor_names">Фруктовый лед</p>
+                      </a>
+                      <p class="text-center">от <b>2990 руб</b></p>
+                    </th></tr></table></th> 
+                  </tr></tbody></table>
+                  <table class="row"><tbody><tr> 
+                    <th class="small-12 large-12 columns first last"><table><tr><th>
+                      <a href=""><center data-parsed=""><img src="https://s5.wampi.ru/2018/05/13/buttoncbb5879245c4a4c7.png" alt="" align="center" class="float-center"></center></a>
+                    </th>
+<th class="expander"></th></tr></table></th>
+                  </tr></tbody></table>
+                  <table class="spacer"><tbody><tr><td height="15px" style="font-size:15px;line-height:15px;">&#xA0;</td></tr></tbody></table> 
+                  <table class="row"><tbody><tr>
+                    <th class="small-12 large-12 columns first last"><table><tr><th>
+                     <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/16/line.png" alt="" align="center" class="float-center"></center>
+                   </th>
+<th class="expander"></th></tr></table></th>
+                  </tr></tbody></table>
+              </td></tr></tbody></table>
+              <table align="center" class="container float-center"><tbody><tr><td>
+                <table class="spacer"><tbody><tr><td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td></tr></tbody></table> 
+                <table class="row"><tbody><tr>
+                  <th class="small-12 large-12 columns first last"><table><tr><th>
+                   <p class="zakaz"> <center data-parsed="">Заказ букета по телефону </center></p>
+                   <h3 class="phone"> <center data-parsed="">8 800 200-40-70 </center></h3>
+                   <p class="free"> <center data-parsed="">бесплатно по России </center></p>
+                  </th>
+<th class="expander"></th></tr></table></th>
+                </tr></tbody></table>
+                <center data-parsed="">
+                  <table class="menu float-center" align="center">
+                    <tr>
+                      <td>
+                        <center data-parsed="">
+                        <table align="center" class="float-center">
+                          <tr>
+                            <th class="menu-item float-center"><a href=""><img src="https://s5.wampi.ru/2018/05/13/vka462eb503bb36668.png" alt=""></a></th>
+                            <th class="menu-item float-center"><a href=""><img src="https://s5.wampi.ru/2018/05/13/fb77ff1567f5a10910.png" alt=""></a></th>
+                            <th class="menu-item float-center"><a href=""><img src="https://s5.wampi.ru/2018/05/13/insta70bb1d13b75fe808.png" alt=""></a></th>
+                            <th class="menu-item float-center"><a href=""><img src="https://s5.wampi.ru/2018/05/13/oke98bb93f606c5cd4.png" alt=""></a></th>
+                          </tr> 
+                        </table>
+                        </center>
+                      </td>
+                    </tr>
+                  </table>
+                </center>
+                <table class="spacer"><tbody><tr><td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td></tr></tbody></table>  
+            	  <table class="row collapse"><tbody><tr>
+            	    <th class="small-12 large-12 columns first last"><table><tr><th>
+            		    <center data-parsed=""><img src="https://s5.wampi.ru/2018/05/16/bg_1.png" alt="" align="center" class="float-center"></center>
+            	    </th>
+<th class="expander"></th></tr></table></th>
+            	  </tr></tbody></table>
+                <table class="spacer"><tbody><tr><td height="30px" style="font-size:30px;line-height:30px;">&#xA0;</td></tr></tbody></table> 
+                <table class="row"><tbody><tr>
+                  <th class="small-12 large-12 columns first last"><table><tr><th>
+                    <a href=""><p class="foot">Рассылка Флорист.ру</p></a>
+                    <a href=""><p class="foot_2">Отписаться</p></a>
+                  </th>
+<th class="expander"></th></tr></table></th>
+                
+              </tr></tbody></table></td></tr></tbody></table>
+              
+            
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
+
