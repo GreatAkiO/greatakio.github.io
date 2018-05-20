@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+
+input {
+	width: 13px;
+}
+
+.equat {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+
+
+p {
+	display: inline-block;
+	margin: 0;
+}
+
+#inp2 {
+	display: none;
+}
+
+#c1 {
+	width: 875px;
+	height: 166px;
+	background-image: url(sprite.png);
+}
+
+.inputs {
+	text-align: left;
+	width: 875px;
+	margin: 0 auto;
+}
+
