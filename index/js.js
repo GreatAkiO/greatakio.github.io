@@ -73,9 +73,9 @@ else {
 	//Создание стрелки на конце линии
 
 	ctx.moveTo((a+b)*39+36, 100);
-	ctx.lineTo((a+b)*39+34, 90);
+	ctx.lineTo((a+b)*39+39-b, 90);
 	ctx.moveTo((a+b)*39+36, 100);
-	ctx.lineTo((a+b)*39+25, 98);
+	ctx.lineTo((a+b)*39+26, 102-b);
 	ctx.stroke();
 }
 }
