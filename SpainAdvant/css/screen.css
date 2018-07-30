@@ -1,0 +1,734 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/screen.scss */
+#header {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0 0 0;
+  top: 0px;
+}
+/* line 22, ../sass/screen.scss */
+#header .menu {
+  display: block;
+  padding-top: 10px;
+}
+/* line 25, ../sass/screen.scss */
+#header .menu a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 28, ../sass/screen.scss */
+#header .menu a p {
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 16px;
+}
+/* line 35, ../sass/screen.scss */
+#header .menu:hover a {
+  color: #ffa34c;
+}
+/* line 38, ../sass/screen.scss */
+#header .menu:hover hr {
+  color: #ffa34c;
+  background-color: #ffa34c;
+}
+/* line 45, ../sass/screen.scss */
+#header hr {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: none;
+  color: #fff;
+  background-color: #fff;
+  margin: 3px auto;
+}
+/* line 54, ../sass/screen.scss */
+#header .phone {
+  wight: 165px;
+  height: 70px;
+}
+/* line 57, ../sass/screen.scss */
+#header .phone a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 60, ../sass/screen.scss */
+#header .phone a p {
+  margin-bottom: 12px;
+}
+/* line 66, ../sass/screen.scss */
+#header .phone:hover .called {
+  border-color: #ffa34c;
+}
+/* line 69, ../sass/screen.scss */
+#header .phone:hover a {
+  color: #ffa34c;
+}
+/* line 74, ../sass/screen.scss */
+#header .called {
+  width: 165px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 2px;
+  margin: auto;
+}
+
+/* line 89, ../sass/screen.scss */
+#fp-nav ul li a span {
+  background: #fff !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* line 95, ../sass/screen.scss */
+#fp-nav ul li .active span {
+  background: url(../img/active_nav.png) !important;
+  width: 16px !important;
+  height: 16px !important;
+  left: 6px !important;
+}
+
+/* line 102, ../sass/screen.scss */
+#fp-nav ul li {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 10px !important;
+}
+
+/* line 110, ../sass/screen.scss */
+.next_page {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 40px;
+  z-index: 100;
+  margin: 0 auto;
+  margin-left: -15px;
+}
+
+/* line 123, ../sass/screen.scss */
+#section0 {
+  background: url(../img/sect_1.png) no-repeat center top/cover;
+}
+
+/* line 127, ../sass/screen.scss */
+.healing p {
+  font-family: "Solomon Sans Book", sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+/* line 132, ../sass/screen.scss */
+.healing hr {
+  width: 260px;
+  height: 2px;
+  color: #fff;
+  background-color: #fff;
+  margin: 7px 0px 7px 28px;
+}
+/* line 139, ../sass/screen.scss */
+.healing h1 {
+  font-family: "Solomon Sans Black", sans-serif;
+  text-transform: uppercase;
+  font-size: 72px;
+  color: #fff;
+  margin-left: -5px;
+  margin-bottom: 25px;
+}
+/* line 148, ../sass/screen.scss */
+.healing h3 {
+  font-family: "Solomon Sans Normal", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+/* line 154, ../sass/screen.scss */
+.healing .more {
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 16px;
+  background-color: #47cae3;
+  width: 187px;
+  height: 35px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 5px;
+}
+/* line 163, ../sass/screen.scss */
+.healing .more a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 169, ../sass/screen.scss */
+.spain {
+  width: 300px;
+  height: 300px;
+}
+
+/* line 173, ../sass/screen.scss */
+.slider {
+  margin-top: 180px;
+  margin-bottom: 30vh;
+}
+/* line 176, ../sass/screen.scss */
+.slider .sl_slide {
+  margin: 0 45px 0 45px;
+}
+
+/* line 186, ../sass/screen.scss */
+#section1 .col-lg-3 {
+  padding: 0px !important;
+}
+/* line 188, ../sass/screen.scss */
+#section1 .col-lg-3 .mon {
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 9;
+  position: relative;
+}
+/* line 193, ../sass/screen.scss */
+#section1 .col-lg-3 .mon h3 {
+  font-family: "Solomon Sans Normal", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+}
+/* line 199, ../sass/screen.scss */
+#section1 .col-lg-3 .mon h1 {
+  font-family: "Solomon Sans Black", sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 205, ../sass/screen.scss */
+#section1 .col-lg-3 .mon hr {
+  color: #ffa34c;
+  background-color: #ffa34c;
+  width: 168px;
+  height: 2px;
+  margin: 5px 0px 5px 3px;
+}
+/* line 212, ../sass/screen.scss */
+#section1 .col-lg-3 .mon p {
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 30vh;
+  width: 80%;
+}
+/* line 223, ../sass/screen.scss */
+#section1 .mon_contain {
+  height: 100vh;
+  padding-top: 45vh;
+  z-index: 10;
+  position: relative;
+}
+/* line 229, ../sass/screen.scss */
+#section1 .bg_contain {
+  width: 100vh;
+  height: 100%;
+  position: absolute;
+  top: 0vh;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+/* line 240, ../sass/screen.scss */
+#section1 .bg_1 {
+  background: url(../img/mon_1.png) no-repeat center top/cover;
+}
+/* line 244, ../sass/screen.scss */
+#section1 .bg_2 {
+  background: url(../img/mon_2.png) no-repeat center top/cover;
+  z-index: 2;
+}
+/* line 248, ../sass/screen.scss */
+#section1 .bg_3 {
+  background: url(../img/mon_3.png) no-repeat center top/cover;
+  z-index: 3;
+}
+/* line 252, ../sass/screen.scss */
+#section1 .bg_4 {
+  background: url(../img/mon_4.png) no-repeat center top/cover;
+  z-index: 4;
+}
+
+/* line 258, ../sass/screen.scss */
+.black_bg {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+/* line 263, ../sass/screen.scss */
+.mon:hover .bg_contain {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+/* line 270, ../sass/screen.scss */
+.mon:hover .black_bg {
+  background: transparent;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+/* line 284, ../sass/screen.scss */
+#section2 {
+  background: url(../img/sect_3.png) no-repeat center top/cover;
+}
+/* line 286, ../sass/screen.scss */
+#section2 .slide_contain {
+  width: 300px;
+  margin-top: 30px;
+}
+/* line 289, ../sass/screen.scss */
+#section2 .slide_contain .sl_t {
+  float: right;
+}
+/* line 292, ../sass/screen.scss */
+#section2 .slide_contain .fa-balance-scale {
+  float: left;
+  color: #fff;
+  font-size: 37px;
+  font-width: 100;
+}
+/* line 298, ../sass/screen.scss */
+#section2 .slide_contain .sl_zag {
+  font-family: "Solomon Sans Bold", sans-serif;
+  font-size: 16px;
+}
+/* line 302, ../sass/screen.scss */
+#section2 .slide_contain .sl_desc {
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 10px;
+}
+/* line 307, ../sass/screen.scss */
+#section2 .slick-center {
+  margin-left: 100px;
+  transform: scale(1.5);
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+/* line 316, ../sass/screen.scss */
+#section2 .slick-center .fa-balance-scale {
+  color: #ffa34c;
+}
+/* line 320, ../sass/screen.scss */
+#section2 .sl_slide {
+  width: 300px !important;
+}
+/* line 323, ../sass/screen.scss */
+#section2 .slick-next {
+  left: -25px;
+  top: 65%;
+}
+/* line 327, ../sass/screen.scss */
+#section2 .slick-prev {
+  left: -25px;
+  top: 35%;
+}
+/* line 331, ../sass/screen.scss */
+#section2 .slick-list {
+  margin-left: 45px;
+}
+/* line 335, ../sass/screen.scss */
+#section2 .best_contain {
+  color: #fff;
+  margin-top: 30%;
+}
+/* line 338, ../sass/screen.scss */
+#section2 .best_contain hr {
+  color: #ffa34c;
+  background-color: #ffa34c;
+  width: 146px;
+  float: left;
+  display: block;
+  margin-right: 21px;
+  height: 2px;
+}
+/* line 347, ../sass/screen.scss */
+#section2 .best_contain p {
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+/* line 352, ../sass/screen.scss */
+#section2 .best_contain h1 {
+  font-family: "Solomon Sans Black", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+/* line 364, ../sass/screen.scss */
+#section3 {
+  background: url(../img/sect_4.png) no-repeat center top/cover;
+}
+/* line 366, ../sass/screen.scss */
+#section3 .sign_up_contain {
+  color: #fff;
+}
+/* line 368, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_header {
+  margin-bottom: 10vh;
+  margin-top: 70px;
+}
+/* line 371, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_header hr {
+  color: #ffa34c;
+  background-color: #ffa34c;
+  width: 133px;
+  display: block;
+  height: 2px;
+  margin: 5px 47px;
+}
+/* line 379, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_header p {
+  margin: 0;
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 24px;
+}
+/* line 384, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_header h1 {
+  font-family: "Solomon Sans Black", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* line 391, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_main {
+  font-size: 16px;
+  margin-bottom: 63px;
+}
+/* line 394, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_main h1 {
+  font-family: "Solomon Sans Bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* line 399, ../sass/screen.scss */
+#section3 .sign_up_contain .sign_up_main p {
+  font-family: "Solomon Sans Normal", sans-serif;
+}
+/* line 403, ../sass/screen.scss */
+#section3 .sign_up_contain form {
+  /* WebKit, Blink, Edge */
+  /* Mozilla Firefox 4 to 18 */
+  /* Mozilla Firefox 19+ */
+  /* Internet Explorer 10-11 */
+  /* Microsoft Edge */
+}
+/* line 404, ../sass/screen.scss */
+#section3 .sign_up_contain form input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+/* line 410, ../sass/screen.scss */
+#section3 .sign_up_contain form .form-control::-webkit-input-placeholder {
+  color: white;
+}
+/* line 411, ../sass/screen.scss */
+#section3 .sign_up_contain form .form-control:-moz-placeholder {
+  color: white;
+}
+/* line 412, ../sass/screen.scss */
+#section3 .sign_up_contain form .form-control::-moz-placeholder {
+  color: white;
+}
+/* line 413, ../sass/screen.scss */
+#section3 .sign_up_contain form .form-control:-ms-input-placeholder {
+  color: white;
+}
+/* line 414, ../sass/screen.scss */
+#section3 .sign_up_contain form .form-control::-ms-input-placeholder {
+  color: white;
+}
+/* line 415, ../sass/screen.scss */
+#section3 .sign_up_contain form .btn {
+  padding: 10px 0;
+  width: 275px;
+  background-color: #47cae3;
+  border-radius: 25px;
+  color: #fff;
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 16px;
+}
+/* line 426, ../sass/screen.scss */
+#section3 .valid-feedback, #section3 .invalid-feedback {
+  position: absolute;
+  left: 0px;
+}
+
+/* line 432, ../sass/screen.scss */
+#section3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 442, ../sass/screen.scss */
+#section4 {
+  background: url(../img/sect_5.png) no-repeat center top/cover;
+  color: #fff;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+/* line 449, ../sass/screen.scss */
+#section4 .container-fluid {
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 452, ../sass/screen.scss */
+#section4 .menu_list {
+  height: 100vh;
+  padding-top: 80px;
+}
+/* line 455, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item {
+  margin-top: 40px;
+}
+/* line 457, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+/* line 462, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item hr {
+  color: #fff;
+  background-color: #fff;
+  width: 80px;
+  display: block;
+  height: 2px;
+  margin: 5px 20px;
+}
+/* line 470, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item p {
+  margin: 0;
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 24px;
+}
+/* line 475, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item h1 {
+  font-family: "Solomon Sans Black", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* line 481, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item .line_2 {
+  width: 110px;
+}
+/* line 484, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item .line_3 {
+  width: 8px;
+  margin: 5px 7px;
+}
+/* line 488, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item .line_4 {
+  width: 76px;
+}
+/* line 491, ../sass/screen.scss */
+#section4 .menu_list .menu_list_item .line_5 {
+  width: 76px;
+}
+
+/* line 499, ../sass/screen.scss */
+.menu_list_item:hover hr {
+  color: #ffa34c !important;
+  background-color: #ffa34c !important;
+}
+
+/* line 506, ../sass/screen.scss */
+.back_menu p {
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 511, ../sass/screen.scss */
+.back_menu .fa-times {
+  font-size: 24px;
+}
+
+/* line 521, ../sass/screen.scss */
+.active_called .sign_up_contain {
+  color: #fff;
+  height: 100vh;
+  padding-top: 130px;
+}
+/* line 525, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_header {
+  margin-bottom: 70px;
+}
+/* line 527, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_header hr {
+  color: #ffa34c;
+  background-color: #ffa34c;
+  width: 36px;
+  display: block;
+  height: 2px;
+  margin: 5px 12px;
+}
+/* line 535, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_header p {
+  margin: 0;
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 24px;
+}
+/* line 540, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_header h1 {
+  font-family: "Solomon Sans Black", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* line 547, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_main {
+  font-size: 16px;
+  margin-bottom: 63px;
+}
+/* line 550, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_main h1 {
+  font-family: "Solomon Sans Bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* line 555, ../sass/screen.scss */
+.active_called .sign_up_contain .sign_up_main p {
+  font-family: "Solomon Sans Normal", sans-serif;
+}
+/* line 559, ../sass/screen.scss */
+.active_called .sign_up_contain form {
+  /* WebKit, Blink, Edge */
+  /* Mozilla Firefox 4 to 18 */
+  /* Mozilla Firefox 19+ */
+  /* Internet Explorer 10-11 */
+  /* Microsoft Edge */
+}
+/* line 560, ../sass/screen.scss */
+.active_called .sign_up_contain form input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+/* line 566, ../sass/screen.scss */
+.active_called .sign_up_contain form .form-control::-webkit-input-placeholder {
+  color: white;
+}
+/* line 567, ../sass/screen.scss */
+.active_called .sign_up_contain form .form-control:-moz-placeholder {
+  color: white;
+}
+/* line 568, ../sass/screen.scss */
+.active_called .sign_up_contain form .form-control::-moz-placeholder {
+  color: white;
+}
+/* line 569, ../sass/screen.scss */
+.active_called .sign_up_contain form .form-control:-ms-input-placeholder {
+  color: white;
+}
+/* line 570, ../sass/screen.scss */
+.active_called .sign_up_contain form .form-control::-ms-input-placeholder {
+  color: white;
+}
+/* line 571, ../sass/screen.scss */
+.active_called .sign_up_contain form .btn {
+  padding: 10px 0;
+  width: 275px;
+  background-color: #47cae3;
+  border-radius: 25px;
+  color: #fff;
+  font-family: "Solomon Sans Normal", sans-serif;
+  font-size: 16px;
+}
+/* line 582, ../sass/screen.scss */
+.active_called .valid-feedback, .active_called .invalid-feedback {
+  position: absolute;
+  left: 0px;
+}

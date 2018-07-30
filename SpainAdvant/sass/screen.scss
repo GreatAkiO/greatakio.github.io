@@ -1,0 +1,587 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+// Стили для шапки. Начало
+
+#header	{
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	z-index:9;
+	text-align:center;
+	color: #fff;
+	padding: 30px 0 0 0;
+	top: 0px;
+
+	.menu {
+	 	display: block;
+	 	padding-top: 10px;
+	 	a {
+	 	text-decoration: none;
+	 	color: #fff;
+	 		p {
+	 		font-family: "Solomon Sans Normal", sans-serif;
+	 		font-size: 16px;
+	 		}
+		}
+	}
+	.menu:hover {
+		a {
+			color: #ffa34c;
+		}
+		hr {
+			color: #ffa34c;
+			background-color: #ffa34c;
+		}
+	}
+
+
+	hr {
+		display: block;
+		width: 22px;
+		height: 2px;
+		border: none;
+		color: #fff;
+		background-color: #fff;
+		margin: 3px auto;
+	}
+	.phone {
+		wight: 165px;
+		height: 70px;
+		a {
+			text-decoration: none;
+	 		color: #fff;
+			p {
+			margin-bottom: 12px;
+			}
+		}
+	}
+	.phone:hover {
+		.called{
+			border-color: #ffa34c;	
+		}
+		a {
+			color: #ffa34c;
+		}
+	}
+
+	.called {
+		width: 165px;
+		height: 35px;
+		border: 2px solid #fff;
+		border-radius: 14px;
+		box-sizing: border-box;
+		text-align: center;
+		padding-top: 2px;
+		margin: auto;
+	}
+}
+
+// Стили для шапки и футера. Конец
+
+// Настройка стилей для пагинации. Начало
+#fp-nav ul li a span{
+	background: #fff !important;
+	width: 12px !important;
+	height: 12px !important;
+}
+
+#fp-nav ul li .active span {
+	background: url(../img/active_nav.png) !important;
+	width: 16px !important;
+	height: 16px !important;
+	left: 6px !important;
+}
+
+#fp-nav ul li {
+	width: 16px !important;
+	height: 16px !important;
+	margin: 10px !important;
+}
+// Настройка стилей для пагинации. Конец
+
+// Настройка стилей для нижней стрелки. Начало
+.next_page {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: 40px;
+	z-index: 100;
+	margin: 0 auto;
+	margin-left: -15px;
+}
+// Настройка стилей для нижней стрелки. Конец
+
+
+// Стили для первого экрана. Начало
+#section0 {
+	background: url(../img/sect_1.png) no-repeat center top / cover;
+}
+	.healing {
+		p {
+			font-family: "Solomon Sans Book", sans-serif;
+			font-size: 30px;
+			color: #fff;
+		}
+		hr {
+			width: 260px;
+			height: 2px;
+			color: #fff;
+			background-color: #fff;
+			margin: 7px 0px 7px 28px;
+		}
+		h1 {
+			
+			font-family: "Solomon Sans Black", sans-serif;
+			text-transform: uppercase;
+			font-size: 72px;
+			color: #fff;
+			margin-left: -5px;	
+			margin-bottom: 25px;	
+		}
+		h3 {
+			font-family: "Solomon Sans Normal", sans-serif;
+			color: #fff;
+			font-size: 18px;
+			margin-bottom: 35px;
+		}
+		.more {
+			font-family: "Solomon Sans Normal", sans-serif;
+			font-size: 16px;
+			background-color: #47cae3;
+			width: 187px;
+			height: 35px;
+			border-radius: 15px;
+			text-align: center;
+			padding-top: 5px;
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}		
+	}
+	.spain {
+			width: 300px;
+			height: 300px;
+		}
+	.slider {
+		margin-top:180px;
+		margin-bottom:30vh; 
+		.sl_slide {
+		margin: 0 45px 0 45px;
+		}	
+	}
+	
+	
+// Стили для первого экрана. Конец
+
+// Стили для второго экрана. Начало
+#section1 {
+	.col-lg-3 {
+		padding: 0px !important;
+		.mon {
+			cursor: pointer;
+			overflow: hidden;
+			z-index: 9;
+			position: relative;
+			h3 {
+				font-family: "Solomon Sans Normal", sans-serif; 
+				color: #fff;
+				font-size: 24px;
+				font-weight: normal;					
+			}
+			h1 {
+				font-family: "Solomon Sans Black", sans-serif;
+				font-size: 48px;
+				color: #fff;
+				text-transform: uppercase;		
+			}
+			hr {
+				color: #ffa34c;
+				background-color: #ffa34c;
+				width: 168px;
+				height: 2px;
+				margin: 5px 0px 5px 3px;	
+			}
+			p {
+				font-family: "Solomon Sans Normal", sans-serif; 
+				font-size: 18px;
+				color: #fff;
+				margin-top: 30vh;
+				width: 80%;
+			}
+		}
+	}
+
+// Стили для фонов. Начало
+	.mon_contain {
+			height: 100vh;
+			padding-top: 45vh;
+			z-index:10;
+			position: relative;			
+	}
+	.bg_contain {
+			width: 100vh;
+			height: 100%;
+			position: absolute;
+			top: 0vh;
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			-o-transition: all .5s;
+			transition: all .5s;
+	}
+
+	.bg_1 {
+			background: url(../img/mon_1.png) no-repeat center top / cover;	
+	}
+
+	.bg_2 {
+			background: url(../img/mon_2.png) no-repeat center top / cover;	
+			z-index: 2;
+	}
+	.bg_3 {
+			background: url(../img/mon_3.png) no-repeat center top / cover;	
+			z-index: 3;
+	}
+	.bg_4 {
+			background: url(../img/mon_4.png) no-repeat center top / cover;	
+			z-index: 4;
+	}
+
+}
+.black_bg {
+	background: rgba(0,0,0,0.5);
+	height: 100vh;	
+}
+.mon:hover {
+	.bg_contain {
+		-ms-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	.black_bg {
+		background: rgba(0,0,0,0);
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		-o-transition: all .5s;
+		transition: all .5s;
+	}
+}
+
+// Стили для фонов. Конец
+// Стили для второго экрана. Конец
+
+// Стили для третьего экрана. Начало
+
+#section2 {
+	background: url(../img/sect_3.png) no-repeat center top / cover;
+	.slide_contain {
+		width: 300px;
+		margin-top: 30px;
+		.sl_t {
+			float: right;
+		}
+		.fa-balance-scale {
+			float: left;
+			color: #fff;
+			font-size: 37px;
+			font-width: 100;
+		}
+		.sl_zag {
+			font-family: "Solomon Sans Bold", sans-serif;
+			font-size: 16px;
+		}
+		.sl_desc {
+			font-family: "Solomon Sans Normal", sans-serif;
+			font-size: 10px;
+		}
+	}
+	.slick-center {
+		margin-left: 100px;
+
+		transform: scale(1.5);
+		transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		.fa-balance-scale {
+			color: #ffa34c;
+		}
+	}
+	.sl_slide {
+		width: 300px !important;
+	}
+	.slick-next {
+		left: -25px;
+		top: 65%;
+	}
+	.slick-prev {
+		left: -25px;
+		top: 35%;
+	}
+	.slick-list {
+		margin-left: 45px;
+	}
+
+	.best_contain {
+		color: #fff;
+		margin-top: 30%;
+		hr {
+		color: #ffa34c;
+		background-color: #ffa34c;
+		width: 146px;
+		float: left;
+		display: block;
+		margin-right: 21px;
+		height: 2px;
+		}
+		p {
+		font-family: "Solomon Sans Normal", sans-serif;
+		font-size: 24px;
+		margin: 0;
+		}
+		h1 {
+		font-family: "Solomon Sans Black", sans-serif;
+		font-size: 48px;
+		text-transform: uppercase;
+		}
+	}
+}
+
+// Стили для третьего экрана. Конец
+
+// Стили для четвертого экрана. Начало
+
+#section3 {
+	background: url(../img/sect_4.png) no-repeat center top / cover;
+	.sign_up_contain {
+		color: #fff;
+		.sign_up_header {
+			margin-bottom: 10vh;
+			margin-top: 70px;
+			hr {
+				color: #ffa34c;
+				background-color: #ffa34c;
+				width: 133px;
+				display: block;
+				height: 2px;
+				margin: 5px 47px;
+			}
+			p {
+				margin: 0;
+				font-family: "Solomon Sans Normal", sans-serif;
+				font-size: 24px;
+			}
+			h1 {
+				font-family: "Solomon Sans Black", sans-serif;
+				font-size: 48px;
+				text-transform: uppercase;	
+				letter-spacing: 3px;
+			}
+		}
+		.sign_up_main {
+			font-size: 16px;
+			margin-bottom: 63px;
+			h1 {
+				font-family: "Solomon Sans Bold", sans-serif;
+				text-transform: uppercase;
+				font-size: 16px;	
+			}
+			p {
+				font-family: "Solomon Sans Normal", sans-serif;
+			}
+		}
+		form {
+			input {
+				background: rgba(0,0,0,0);
+				color: #fff;
+				border: none;
+				border-bottom: 1px solid #fff;
+			}
+			.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+			.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+			.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+			.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+			.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+			.btn {
+				padding: 10px 0;
+				width: 275px;
+				background-color: #47cae3;
+				border-radius: 25px;
+				color: #fff;
+				font-family: "Solomon Sans Normal", sans-serif;
+				font-size: 16px;
+			}
+		}
+	}
+	.valid-feedback, .invalid-feedback {
+		position: absolute;
+		left: 0px;
+	}
+}
+
+#section3:before {
+	content: "";
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+// Стили для четвертого экрана. Конец
+
+// Стили для формы активного меню. Начало
+#section4 {
+	background: url(../img/sect_5.png) no-repeat center top / cover;
+	color: #fff;
+	-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		-o-transition: all .5s;
+		transition: all .5s;
+	.container-fluid {
+		background: rgba(0,0,0,0.3);
+	}
+	.menu_list {
+		height: 100vh;
+		padding-top: 80px;
+		.menu_list_item {	
+			margin-top: 40px;
+			a {
+				text-decoration: none;
+				color: #fff;
+				display: block;
+			}
+			hr {
+				color: #fff;
+				background-color: #fff;
+				width: 80px;
+				display: block;
+				height: 2px;
+				margin: 5px 20px;
+			}
+			p {
+				margin: 0;
+				font-family: "Solomon Sans Normal", sans-serif;
+				font-size: 24px;
+			}
+			h1 {
+				font-family: "Solomon Sans Black", sans-serif;
+				font-size: 48px;
+				text-transform: uppercase;	
+				letter-spacing: 3px;
+			}
+			.line_2 {
+				width: 110px;
+			}
+			.line_3 {
+				width: 8px;
+				margin: 5px 7px;
+			}
+			.line_4 {
+				width: 76px;
+			}
+			.line_5 {
+				width: 76px;
+			}
+		}
+	}
+}
+
+.menu_list_item:hover {
+			hr {
+				color: #ffa34c !important;
+				background-color: #ffa34c !important;
+			}
+		}
+
+.back_menu {
+		p {
+			font-family: "Solomon Sans Normal", sans-serif;
+			font-size: 16px;	
+			text-transform: uppercase;
+		}
+		.fa-times {
+			font-size: 24px;
+		}
+	}
+
+// Стили для формы активного меню. Конец
+
+// Стили для формы заявки на звонок. Начало
+
+.active_called {
+	.sign_up_contain {
+		color: #fff;
+		height: 100vh;
+		padding-top: 130px;
+		.sign_up_header {
+			margin-bottom: 70px;
+			hr {
+				color: #ffa34c;
+				background-color: #ffa34c;
+				width: 36px;
+				display: block;
+				height: 2px;
+				margin: 5px 12px;
+			}
+			p {
+				margin: 0;
+				font-family: "Solomon Sans Normal", sans-serif;
+				font-size: 24px;
+			}
+			h1 {
+				font-family: "Solomon Sans Black", sans-serif;
+				font-size: 48px;
+				text-transform: uppercase;	
+				letter-spacing: 3px;
+			}
+		}
+		.sign_up_main {
+			font-size: 16px;
+			margin-bottom: 63px;
+			h1 {
+				font-family: "Solomon Sans Bold", sans-serif;
+				text-transform: uppercase;
+				font-size: 16px;	
+			}
+			p {
+				font-family: "Solomon Sans Normal", sans-serif;
+			}
+		}
+		form {
+			input {
+				background: rgba(0,0,0,0);
+				color: #fff;
+				border: none;
+				border-bottom: 1px solid #fff;
+			}
+			.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+			.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+			.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+			.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+			.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+			.btn {
+				padding: 10px 0;
+				width: 275px;
+				background-color: #47cae3;
+				border-radius: 25px;
+				color: #fff;
+				font-family: "Solomon Sans Normal", sans-serif;
+				font-size: 16px;
+			}
+		}
+	}
+	.valid-feedback, .invalid-feedback {
+		position: absolute;
+		left: 0px;
+	}
+}	
+
